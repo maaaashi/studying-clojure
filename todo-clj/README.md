@@ -20,3 +20,18 @@ Public License, v. 2.0 are satisfied: GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or (at your
 option) any later version, with the GNU Classpath Exception which is available
 at https://www.gnu.org/software/classpath/license.html.
+
+## Usage
+
+```bash
+$ lein repl
+```
+
+```
+user> (require '[todo-clj.core :as c])
+;; START SERVER
+user> (c/start-server)
+;; STOP SERVER
+user> (c/stop-server)
+```
+

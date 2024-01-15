@@ -35,3 +35,13 @@ user> (c/start-server)
 user> (c/stop-server)
 ```
 
+or 
+
+```repl
+user> (in-ns 'todo-clj.core)
+;; START SERVER
+user> (start-server)
+;; STOP SERVER
+user> (stop-server)
+```
+
